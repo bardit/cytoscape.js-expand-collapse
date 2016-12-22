@@ -1,7 +1,7 @@
 var debounce = require('./debounce');
-var elementUtilities;
+var elementUtilities;//test
 
-module.exports = function (params) {
+module.exports = function (params, cy) {
   var fn = params;
 
   var eMouseOver, eMouseOut, ePosition, eRemove, eTap, eZoom, eAdd, eFree;

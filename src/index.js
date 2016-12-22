@@ -59,7 +59,7 @@
       undoRedoUtilities(cy);
       
       if(options.cueEnabled)
-        cueUtilities(options);
+        cueUtilities(options, cy);
       else
         cueUtilities("unbind");
 
