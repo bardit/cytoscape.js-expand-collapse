@@ -108,7 +108,7 @@ module.exports = function (params, cy) {
         var cueCenter;
 
         if (options().expandCollapseCuePosition === 'top-left') {
-          var offset = 1;
+          var offset = options().cueOffset;
         
           var x = node.position('x') - node.width() / 2 - parseFloat(node.css('padding-left')) 
                   + parseFloat(node.css('border-width')) + rectSize / 2 + offset;

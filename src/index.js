@@ -27,7 +27,8 @@
       expandCollapseCueLineSize: 8, // size of lines used for drawing plus-minus icons
       expandCueImage: undefined, // image of expand icon if undefined draw regular expand cue
       collapseCueImage: undefined, // image of collapse icon if undefined draw regular collapse cue
-      expandCollapseCueSensitivity: 1 // sensitivity of expand-collapse cues
+      expandCollapseCueSensitivity: 1, // sensitivity of expand-collapse cues
+      cueOffset: 1//the offset of the cue if neede
     };
 
     function setOptions(from) {
@@ -92,7 +93,7 @@
 
       return expandCollapseUtilities(this.cy()).collapseGivenNodes(eles, tempOptions);
     });
-
+    
     // eles.collapseAll(options)
     cytoscape('collection', 'collapseRecursively', function (opts) {
       var eles = this.collapsibleNodes();
