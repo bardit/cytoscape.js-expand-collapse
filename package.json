@@ -1,5 +1,5 @@
 {
-  "name": "cytoscape-expand-collapse",
+  "name": "@bardit/cytoscape-expand-collapse",
   "version": "2.0.3",
   "description": "This extension provides an interface to expand-collapse nodes.",
   "main": "cytoscape-expand-collapse.js",
