@@ -11,17 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iVis-at-Bilkent/cytoscape.js-expand-collapse.git"
+    "url": "https://github.com/bardit/cytoscape.js-expand-collapse.git"
   },
   "keywords": [
     "cytoscape",
     "cyext"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/iVis-at-Bilkent/cytoscape.js-expand-collapse/issues"
-  },
-  "homepage": "https://github.com/iVis-at-Bilkent/cytoscape.js-expand-collapse",
   "devDependencies": {
     "browserify": "^11.2.0",
     "gulp": "^3.9.0",
